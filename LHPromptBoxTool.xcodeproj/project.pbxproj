@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C49ECF1221F9E040031F132 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49ECF0221F9E040031F132 /* AppDelegate.swift */; };
+		9C49ECF3221F9E040031F132 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49ECF2221F9E040031F132 /* ViewController.swift */; };
+		9C49ECF6221F9E040031F132 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C49ECF4221F9E040031F132 /* Main.storyboard */; };
+		9C49ECF8221F9E040031F132 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C49ECF7221F9E040031F132 /* Assets.xcassets */; };
+		9C49ECFB221F9E040031F132 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C49ECF9221F9E040031F132 /* LaunchScreen.storyboard */; };
+		9C49ED06221F9E040031F132 /* LHPromptBoxToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49ED05221F9E040031F132 /* LHPromptBoxToolTests.swift */; };
+		9C49ED11221F9E040031F132 /* LHPromptBoxToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49ED10221F9E040031F132 /* LHPromptBoxToolUITests.swift */; };
+		9C49ED20221F9E430031F132 /* LHTouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49ED1F221F9E430031F132 /* LHTouchView.swift */; };
+		9C49ED22221FCFFD0031F132 /* LHPromptBoxViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49ED21221FCFFD0031F132 /* LHPromptBoxViewCell.swift */; };
+		9C49ED24221FD3A90031F132 /* LHPromptBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49ED23221FD3A90031F132 /* LHPromptBoxView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C49ED02221F9E040031F132 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C49ECE5221F9E040031F132 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C49ECEC221F9E040031F132;
+			remoteInfo = LHPromptBoxTool;
+		};
+		9C49ED0D221F9E040031F132 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C49ECE5221F9E040031F132 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C49ECEC221F9E040031F132;
+			remoteInfo = LHPromptBoxTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C49ECED221F9E040031F132 /* LHPromptBoxTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LHPromptBoxTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C49ECF0221F9E040031F132 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C49ECF2221F9E040031F132 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C49ECF5221F9E040031F132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C49ECF7221F9E040031F132 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C49ECFA221F9E040031F132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C49ECFC221F9E040031F132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C49ED01221F9E040031F132 /* LHPromptBoxToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LHPromptBoxToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C49ED05221F9E040031F132 /* LHPromptBoxToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHPromptBoxToolTests.swift; sourceTree = "<group>"; };
+		9C49ED07221F9E040031F132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C49ED0C221F9E040031F132 /* LHPromptBoxToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LHPromptBoxToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C49ED10221F9E040031F132 /* LHPromptBoxToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHPromptBoxToolUITests.swift; sourceTree = "<group>"; };
+		9C49ED12221F9E040031F132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C49ED1F221F9E430031F132 /* LHTouchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHTouchView.swift; sourceTree = "<group>"; };
+		9C49ED21221FCFFD0031F132 /* LHPromptBoxViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHPromptBoxViewCell.swift; sourceTree = "<group>"; };
+		9C49ED23221FD3A90031F132 /* LHPromptBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHPromptBoxView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C49ECEA221F9E040031F132 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C49ECFE221F9E040031F132 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C49ED09221F9E040031F132 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C49ECE4221F9E040031F132 = {
+			isa = PBXGroup;
+			children = (
+				9C49ECEF221F9E040031F132 /* LHPromptBoxTool */,
+				9C49ED04221F9E040031F132 /* LHPromptBoxToolTests */,
+				9C49ED0F221F9E040031F132 /* LHPromptBoxToolUITests */,
+				9C49ECEE221F9E040031F132 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C49ECEE221F9E040031F132 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C49ECED221F9E040031F132 /* LHPromptBoxTool.app */,
+				9C49ED01221F9E040031F132 /* LHPromptBoxToolTests.xctest */,
+				9C49ED0C221F9E040031F132 /* LHPromptBoxToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C49ECEF221F9E040031F132 /* LHPromptBoxTool */ = {
+			isa = PBXGroup;
+			children = (
+				9C49ECF0221F9E040031F132 /* AppDelegate.swift */,
+				9C49ECF2221F9E040031F132 /* ViewController.swift */,
+				9C49ED1E221F9E110031F132 /* LHPromptBox */,
+				9C49ECF4221F9E040031F132 /* Main.storyboard */,
+				9C49ECF7221F9E040031F132 /* Assets.xcassets */,
+				9C49ECF9221F9E040031F132 /* LaunchScreen.storyboard */,
+				9C49ECFC221F9E040031F132 /* Info.plist */,
+			);
+			path = LHPromptBoxTool;
+			sourceTree = "<group>";
+		};
+		9C49ED04221F9E040031F132 /* LHPromptBoxToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C49ED05221F9E040031F132 /* LHPromptBoxToolTests.swift */,
+				9C49ED07221F9E040031F132 /* Info.plist */,
+			);
+			path = LHPromptBoxToolTests;
+			sourceTree = "<group>";
+		};
+		9C49ED0F221F9E040031F132 /* LHPromptBoxToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C49ED10221F9E040031F132 /* LHPromptBoxToolUITests.swift */,
+				9C49ED12221F9E040031F132 /* Info.plist */,
+			);
+			path = LHPromptBoxToolUITests;
+			sourceTree = "<group>";
+		};
+		9C49ED1E221F9E110031F132 /* LHPromptBox */ = {
+			isa = PBXGroup;
+			children = (
+				9C49ED1F221F9E430031F132 /* LHTouchView.swift */,
+				9C49ED21221FCFFD0031F132 /* LHPromptBoxViewCell.swift */,
+				9C49ED23221FD3A90031F132 /* LHPromptBoxView.swift */,
+			);
+			path = LHPromptBox;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C49ECEC221F9E040031F132 /* LHPromptBoxTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C49ED15221F9E040031F132 /* Build configuration list for PBXNativeTarget "LHPromptBoxTool" */;
+			buildPhases = (
+				9C49ECE9221F9E040031F132 /* Sources */,
+				9C49ECEA221F9E040031F132 /* Frameworks */,
+				9C49ECEB221F9E040031F132 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LHPromptBoxTool;
+			productName = LHPromptBoxTool;
+			productReference = 9C49ECED221F9E040031F132 /* LHPromptBoxTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C49ED00221F9E040031F132 /* LHPromptBoxToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C49ED18221F9E040031F132 /* Build configuration list for PBXNativeTarget "LHPromptBoxToolTests" */;
+			buildPhases = (
+				9C49ECFD221F9E040031F132 /* Sources */,
+				9C49ECFE221F9E040031F132 /* Frameworks */,
+				9C49ECFF221F9E040031F132 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C49ED03221F9E040031F132 /* PBXTargetDependency */,
+			);
+			name = LHPromptBoxToolTests;
+			productName = LHPromptBoxToolTests;
+			productReference = 9C49ED01221F9E040031F132 /* LHPromptBoxToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C49ED0B221F9E040031F132 /* LHPromptBoxToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C49ED1B221F9E040031F132 /* Build configuration list for PBXNativeTarget "LHPromptBoxToolUITests" */;
+			buildPhases = (
+				9C49ED08221F9E040031F132 /* Sources */,
+				9C49ED09221F9E040031F132 /* Frameworks */,
+				9C49ED0A221F9E040031F132 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C49ED0E221F9E040031F132 /* PBXTargetDependency */,
+			);
+			name = LHPromptBoxToolUITests;
+			productName = LHPromptBoxToolUITests;
+			productReference = 9C49ED0C221F9E040031F132 /* LHPromptBoxToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C49ECE5221F9E040031F132 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "李辉";
+				TargetAttributes = {
+					9C49ECEC221F9E040031F132 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9C49ED00221F9E040031F132 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C49ECEC221F9E040031F132;
+					};
+					9C49ED0B221F9E040031F132 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C49ECEC221F9E040031F132;
+					};
+				};
+			};
+			buildConfigurationList = 9C49ECE8221F9E040031F132 /* Build configuration list for PBXProject "LHPromptBoxTool" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C49ECE4221F9E040031F132;
+			productRefGroup = 9C49ECEE221F9E040031F132 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C49ECEC221F9E040031F132 /* LHPromptBoxTool */,
+				9C49ED00221F9E040031F132 /* LHPromptBoxToolTests */,
+				9C49ED0B221F9E040031F132 /* LHPromptBoxToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C49ECEB221F9E040031F132 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C49ECFB221F9E040031F132 /* LaunchScreen.storyboard in Resources */,
+				9C49ECF8221F9E040031F132 /* Assets.xcassets in Resources */,
+				9C49ECF6221F9E040031F132 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C49ECFF221F9E040031F132 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C49ED0A221F9E040031F132 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C49ECE9221F9E040031F132 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C49ECF3221F9E040031F132 /* ViewController.swift in Sources */,
+				9C49ECF1221F9E040031F132 /* AppDelegate.swift in Sources */,
+				9C49ED22221FCFFD0031F132 /* LHPromptBoxViewCell.swift in Sources */,
+				9C49ED20221F9E430031F132 /* LHTouchView.swift in Sources */,
+				9C49ED24221FD3A90031F132 /* LHPromptBoxView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C49ECFD221F9E040031F132 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C49ED06221F9E040031F132 /* LHPromptBoxToolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C49ED08221F9E040031F132 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C49ED11221F9E040031F132 /* LHPromptBoxToolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C49ED03221F9E040031F132 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C49ECEC221F9E040031F132 /* LHPromptBoxTool */;
+			targetProxy = 9C49ED02221F9E040031F132 /* PBXContainerItemProxy */;
+		};
+		9C49ED0E221F9E040031F132 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C49ECEC221F9E040031F132 /* LHPromptBoxTool */;
+			targetProxy = 9C49ED0D221F9E040031F132 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C49ECF4221F9E040031F132 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C49ECF5221F9E040031F132 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C49ECF9221F9E040031F132 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C49ECFA221F9E040031F132 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C49ED13221F9E040031F132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C49ED14221F9E040031F132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C49ED16221F9E040031F132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LHPromptBoxTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lihui-12013.LHPromptBoxTool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C49ED17221F9E040031F132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LHPromptBoxTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lihui-12013.LHPromptBoxTool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C49ED19221F9E040031F132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LHPromptBoxToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lihui-12013.LHPromptBoxToolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LHPromptBoxTool.app/LHPromptBoxTool";
+			};
+			name = Debug;
+		};
+		9C49ED1A221F9E040031F132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LHPromptBoxToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lihui-12013.LHPromptBoxToolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LHPromptBoxTool.app/LHPromptBoxTool";
+			};
+			name = Release;
+		};
+		9C49ED1C221F9E040031F132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LHPromptBoxToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lihui-12013.LHPromptBoxToolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LHPromptBoxTool;
+			};
+			name = Debug;
+		};
+		9C49ED1D221F9E040031F132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LHPromptBoxToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lihui-12013.LHPromptBoxToolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LHPromptBoxTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C49ECE8221F9E040031F132 /* Build configuration list for PBXProject "LHPromptBoxTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C49ED13221F9E040031F132 /* Debug */,
+				9C49ED14221F9E040031F132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C49ED15221F9E040031F132 /* Build configuration list for PBXNativeTarget "LHPromptBoxTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C49ED16221F9E040031F132 /* Debug */,
+				9C49ED17221F9E040031F132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C49ED18221F9E040031F132 /* Build configuration list for PBXNativeTarget "LHPromptBoxToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C49ED19221F9E040031F132 /* Debug */,
+				9C49ED1A221F9E040031F132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C49ED1B221F9E040031F132 /* Build configuration list for PBXNativeTarget "LHPromptBoxToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C49ED1C221F9E040031F132 /* Debug */,
+				9C49ED1D221F9E040031F132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C49ECE5221F9E040031F132 /* Project object */;
+}
