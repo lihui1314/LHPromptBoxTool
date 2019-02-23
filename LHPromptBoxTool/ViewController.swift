@@ -42,7 +42,7 @@ class ViewController: UIViewController ,LHPromptBoxViewDelegate{
     }
     }
     
-    //点击代理
+    //点击方法
     func lh_didSelet(index: Int) {
         print(index)
     }

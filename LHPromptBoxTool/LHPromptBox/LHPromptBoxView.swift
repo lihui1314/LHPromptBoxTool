@@ -11,6 +11,7 @@ let height:CGFloat = 50
 let cancelPadding:CGFloat = 3
 let screenWidth:CGFloat = UIScreen.main.bounds.size.width
 let screenHeight:CGFloat = UIScreen.main.bounds.size.height
+let needSafeA = (screenHeight>CGFloat(737)) ? true:false
 typealias LHBlock = (_ tag:Int)->Void
 
 @objc protocol LHPromptBoxViewDelegate:NSObjectProtocol{
@@ -46,7 +47,7 @@ class LHPromptBoxView: UIView,LHTouchViewDelegate{
 
         cellBackView = UIView.init(frame: CGRect.init(x: 0, y:screenHeight, width:screenWidth, height: viewHeight))
         UIView.animate(withDuration: 0.3) {
-            self.cellBackView.frame = CGRect.init(x:0, y: screenHeight - viewHeight, width: screenWidth, height: viewHeight)
+            self.cellBackView.frame = CGRect.init(x:0, y: screenHeight - viewHeight - self.needSafeArea(), width: screenWidth, height: viewHeight)
             self.allBacView.backgroundColor = UIColor.black.withAlphaComponent(0.2)
         }
         cellBackView.backgroundColor = UIColor.groupTableViewBackground
@@ -80,7 +81,7 @@ class LHPromptBoxView: UIView,LHTouchViewDelegate{
         UIView.animate(withDuration: 0.3) {
            self.allBacView.backgroundColor = UIColor.black.withAlphaComponent(0)
            let center =  self.cellBackView.center
-           let newCenter = CGPoint.init(x: center.x, y: center.y+self.cellBackView.frame.size.height)
+           let newCenter = CGPoint.init(x: center.x, y: center.y+self.cellBackView.frame.size.height+self.needSafeArea())
            self.cellBackView.center = newCenter
         }
         
@@ -88,6 +89,13 @@ class LHPromptBoxView: UIView,LHTouchViewDelegate{
     
    @objc func gestureAc() -> Void {
         removeAllSubViews()
+    }
+    func needSafeArea() -> CGFloat {
+        if needSafeA {
+            return 34
+        }else{
+            return 0
+        }
     }
     /*
     // Only override draw() if you perform custom drawing.
